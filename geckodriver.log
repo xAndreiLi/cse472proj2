@@ -1,0 +1,388 @@
+1667829583535	geckodriver	INFO	Listening on 127.0.0.1:63583
+1667829586550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63584" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileFDgbFv"
+1667829586884	Marionette	INFO	Marionette enabled
+1667829586889	Marionette	INFO	Listening on port 63595
+Read port: 63595
+WebDriver BiDi listening on ws://127.0.0.1:63584
+1667829587024	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileFDgbFv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63584/devtools/browser/45f3a3b4-3b90-4952-9148-96b39ab570cc
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+1667829593055	Marionette	INFO	Stopped listening on port 63595
+1667829780945	geckodriver	INFO	Listening on 127.0.0.1:53249
+1667829783952	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53250" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileHkzPzE"
+1667829784243	Marionette	INFO	Marionette enabled
+1667829784247	Marionette	INFO	Listening on port 53262
+Read port: 53262
+WebDriver BiDi listening on ws://127.0.0.1:53250
+1667829784328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileHkzPzE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53250/devtools/browser/8e3470d3-abf7-48c3-be75-6ca922291e02
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+1667829801121	Marionette	INFO	Stopped listening on port 53262
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1667829811778	geckodriver	INFO	Listening on 127.0.0.1:53654
+1667829814776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53655" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilesgu9tW"
+1667829815064	Marionette	INFO	Marionette enabled
+1667829815068	Marionette	INFO	Listening on port 53665
+Read port: 53665
+WebDriver BiDi listening on ws://127.0.0.1:53655
+1667829815149	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilesgu9tW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53655/devtools/browser/ea216d0a-63a7-417d-9caf-f1ff2117249c
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 4979 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: https://lupa.uol.com.br/jornalismo/2020/03/17/verificamos-preta-gil-covid/, line 23: ChunkLoadError: Loading chunk 5 failed.
+(error: https://lupa.uol.com.br/static/js/5.51500750.chunk.js)
+JavaScript error: https://www.tempo.co/desktop/js/base.js?ver1, line 211: TypeError: toggleSwitch is null
+JavaScript error: https://cdn.izooto.com/scripts/sak/iz_setcid.html?v=1, line 94: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://navbharattimes.indiatimes.com/viral-adda/fake-news-buster/quarantined-people-in-italy-naples-did-not-sang-pakistani-national-anthem-from-their-balconies-38033, line 162: ReferenceError: FB is not defined
+JavaScript error: https://www.politifact.com/factchecks/2020/mar/17/donald-trump/donald-trump-falsely-says-who-coronavirus-test-was/, line 2365: TypeError: window.cmpConfig is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 5892 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.animalpolitico.com/elsabueso/espana-policia-misa-coronavirus/, line 1274: ReferenceError: jQuery is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 459 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6476 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 5542 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://factcheck.afp.com/sites/all/themes/custom/afpblog/v2/components/Select2/select2.min.js?rkzdk1, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript warning: https://www.youtube.com/s/player/03bec62d/player_ias.vflset/en_US/base.js, line 9628: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.altnews.in/wp-content/themes/newsbeat/js/bootstrap.min.js?ver=3.3.5, line 1: Error: Bootstrap's JavaScript requires jQuery version 1.9.1 or higher, but lower than version 3
+JavaScript warning: https://www.youtube.com/s/player/03bec62d/player_ias.vflset/en_GB/base.js, line 9628: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667829967026	Marionette	INFO	Stopped listening on port 53665
+1667830151035	geckodriver	INFO	Listening on 127.0.0.1:61996
+1667830154055	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61997" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileETxlYq"
+1667830154363	Marionette	INFO	Marionette enabled
+1667830154367	Marionette	INFO	Listening on port 54855
+WebDriver BiDi listening on ws://127.0.0.1:61997
+Read port: 54855
+1667830154640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileETxlYq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61997/devtools/browser/da422bca-6c98-4ba7-9b3f-4b953eb19478
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 3869 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.tempo.co/desktop/js/base.js?ver1, line 211: TypeError: toggleSwitch is null
+JavaScript error: https://cdn.izooto.com/scripts/sak/iz_setcid.html?v=1, line 94: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 3123 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://navbharattimes.indiatimes.com/viral-adda/fake-news-buster/quarantined-people-in-italy-naples-did-not-sang-pakistani-national-anthem-from-their-balconies-38033, line 162: ReferenceError: FB is not defined
+JavaScript error: https://www.politifact.com/factchecks/2020/mar/17/donald-trump/donald-trump-falsely-says-who-coronavirus-test-was/, line 2365: TypeError: window.cmpConfig is undefined
+JavaScript warning: https://pix.adrta.com/cdnf.js?v=22.110, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 3537 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.animalpolitico.com/elsabueso/espana-policia-misa-coronavirus/, line 1274: ReferenceError: jQuery is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6503 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6512 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 2595 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://factcheck.afp.com/sites/all/themes/custom/afpblog/v2/components/Select2/select2.min.js?rkzdk1, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript warning: https://www.youtube.com/s/player/03bec62d/player_ias.vflset/en_US/base.js, line 9628: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.altnews.in/wp-content/themes/newsbeat/js/bootstrap.min.js?ver=3.3.5, line 1: Error: Bootstrap's JavaScript requires jQuery version 1.9.1 or higher, but lower than version 3
+JavaScript warning: https://www.youtube.com/s/player/03bec62d/player_ias.vflset/en_GB/base.js, line 9628: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667830311097	Marionette	INFO	Stopped listening on port 54855
+1667830460339	geckodriver	INFO	Listening on 127.0.0.1:63522
+1667830463335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63523" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilechexZN"
+1667830463633	Marionette	INFO	Marionette enabled
+1667830463637	Marionette	INFO	Listening on port 63537
+Read port: 63537
+WebDriver BiDi listening on ws://127.0.0.1:63523
+1667830463719	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilechexZN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63523/devtools/browser/59e00e5f-3b8d-45e7-958e-1ba78572f058
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+1667830469614	Marionette	INFO	Stopped listening on port 63537
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1667830558229	geckodriver	INFO	Listening on 127.0.0.1:63752
+1667830561260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63753" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilePt41KF"
+1667830561718	Marionette	INFO	Marionette enabled
+1667830561722	Marionette	INFO	Listening on port 63765
+WebDriver BiDi listening on ws://127.0.0.1:63753
+Read port: 63765
+1667830561897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilePt41KF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63753/devtools/browser/75ab9499-823d-433c-9204-68464e295759
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+1667830567613	Marionette	INFO	Stopped listening on port 63765
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1667830688303	geckodriver	INFO	Listening on 127.0.0.1:64005
+1667830691309	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64006" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileRizYpf"
+1667830691603	Marionette	INFO	Marionette enabled
+1667830691606	Marionette	INFO	Listening on port 64021
+Read port: 64021
+WebDriver BiDi listening on ws://127.0.0.1:64006
+1667830691688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileRizYpf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64006/devtools/browser/244020ca-e663-4219-b515-d3e9b11bb8ae
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+1667830697701	Marionette	INFO	Stopped listening on port 64021
+1667830890631	geckodriver	INFO	Listening on 127.0.0.1:64314
+1667830893661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64315" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileyZeqZS"
+1667830894240	Marionette	INFO	Marionette enabled
+1667830894244	Marionette	INFO	Listening on port 64331
+Read port: 64331
+WebDriver BiDi listening on ws://127.0.0.1:64315
+1667830894325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileyZeqZS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64315/devtools/browser/bccc77cd-546d-4220-b89a-a4238d2bc45b
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 3567 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 593"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:593:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 593, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 593: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1667830988840	Marionette	INFO	Stopped listening on port 64331
+1667831051051	geckodriver	INFO	Listening on 127.0.0.1:64652
+1667831054030	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileYcYHTO"
+1667831054314	Marionette	INFO	Marionette enabled
+1667831054317	Marionette	INFO	Listening on port 64665
+Read port: 64665
+WebDriver BiDi listening on ws://127.0.0.1:64653
+1667831054400	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileYcYHTO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64653/devtools/browser/a474b509-650c-4336-98e9-5d78855d1088
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 4871 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667831086126	Marionette	INFO	Stopped listening on port 64665
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1667831123691	geckodriver	INFO	Listening on 127.0.0.1:64963
+1667831126692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64964" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilexJDFAf"
+1667831126984	Marionette	INFO	Marionette enabled
+1667831126988	Marionette	INFO	Listening on port 64977
+Read port: 64977
+WebDriver BiDi listening on ws://127.0.0.1:64964
+1667831127069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilexJDFAf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64964/devtools/browser/fe34ea3e-1aad-408e-8d36-69707aa06ed8
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 3735 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://tm.jsuol.com.br/modules/client-purge.js, line 1: unreachable code after return statement
+JavaScript error: https://tm.jsuol.com.br/modules/client-purge.js, line 1: TypeError: window.location.ancestorOrigins is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6719 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.tempo.co/desktop/js/base.js?ver1, line 211: TypeError: toggleSwitch is null
+JavaScript error: https://cdn.izooto.com/scripts/sak/iz_setcid.html?v=1, line 94: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 2 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Campaign library was not initialized within 5 seconds
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 5178 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.taboola.com/libtrc/boomlive-english/loader.js?v=3, line 43: TypeError: undefined is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://navbharattimes.indiatimes.com/viral-adda/fake-news-buster/quarantined-people-in-italy-naples-did-not-sang-pakistani-national-anthem-from-their-balconies-38033, line 162: ReferenceError: FB is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 7280 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.taboola.com/libtrc/boomlive-english/loader.js?v=3, line 43: TypeError: undefined is not a function
+JavaScript error: https://streamserv.bidsxchange.com/streamserv11396.js, line 64: TypeError: data.adIframeCtl is undefined
+JavaScript error: https://www.politifact.com/factchecks/2020/mar/17/donald-trump/donald-trump-falsely-says-who-coronavirus-test-was/, line 2365: TypeError: window.cmpConfig is undefined
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-fycFLZkSGcUj7&moatClientLevel2=qfm&moatClientLevel3=0824b95c-4c5a-49a1-94c7-d6de44f3dbfe&moatClientLevel4=c56c4239-8af7-4936-9642-ad7da761dc6e&uid=KbzfBVm-2Q0yyaxxWqfeBSqzx3QrzNMYLrLTDS-52HBbz6gG5zyGqg==, line 239: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667831267922	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 561 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.animalpolitico.com/elsabueso/espana-policia-misa-coronavirus/, line 1272: ReferenceError: jQuery is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6081 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 660 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.animalpolitico.com/elsabueso/espana-policia-misa-coronavirus/, line 11: ReferenceError: osdlfm is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 5706 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667831295730	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 1079 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://factcheck.afp.com/sites/all/themes/custom/afpblog/v2/components/Select2/select2.min.js?rkzdk1, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript warning: https://www.youtube.com/s/player/03bec62d/player_ias.vflset/en_US/base.js, line 9628: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.altnews.in/wp-content/themes/newsbeat/js/bootstrap.min.js?ver=3.3.5, line 1: Error: Bootstrap's JavaScript requires jQuery version 1.9.1 or higher, but lower than version 3
+JavaScript warning: https://www.youtube.com/s/player/03bec62d/player_ias.vflset/en_GB/base.js, line 9628: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667831374674	Marionette	INFO	Stopped listening on port 64977
+1667831515277	geckodriver	INFO	Listening on 127.0.0.1:56559
+1667831518285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56560" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileXMZneP"
+1667831518571	Marionette	INFO	Marionette enabled
+1667831518575	Marionette	INFO	Listening on port 56576
+Read port: 56576
+WebDriver BiDi listening on ws://127.0.0.1:56560
+1667831518660	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileXMZneP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56560/devtools/browser/28f2a466-27f6-48c5-8a90-077f3fe539ff
+JavaScript error: https://platform.twitter.com/widgets.js, line 1: TypeError: window.twttr is undefined
+JavaScript error: https://factcheck.afp.com/sites/all/themes/custom/afpblog/v2/components/Select2/select2.min.js?rkzdk1, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1667831552776	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1667831554049	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, line 1: SyntaxError: illegal character U+0001
+1667831554058	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667831558156	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 1044 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/ line 663 > injectedScript, line 1: ReferenceError: freestar is not defined
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 832: TypeError: document.querySelector(...) is null
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 832: ReferenceError: Splide is not defined
+1667831576823	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6750 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 2755 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 2527 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667831580481	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 5241 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667831588184	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://factcheck.afp.com/sites/all/themes/custom/afpblog/v2/components/Select2/select2.min.js?rkzdk1, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 5945 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.usatoday.com/story/news/factcheck/2021/09/16/fact-check-postal-workers-follow-osha-vaccine-guidance/8295566002/ line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 4733 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/thetradedeskv275874568748/moatad.js#moatClientLevel1=pmijyo9&moatClientLevel2=645tx8r&moatClientLevel3=s3txsid&moatClientSlicer1=www.usatoday.com&zMoatImpressionId=b8b2fb7b-95b0-4817-879f-93313e3e914b&zMoatCachebuster=323478&zMoatPartnerID=gwg88r3&zMoatViewType=0&zMoatCreative=304ze925&zMoatDealID=&zMoatSupplyVendor=rubicon&zMoatSite=www.usatoday.com&zMoatPublisherID=11324&moatClientLevel4=https%3A%2F%2Finsight.adsrvr.org%2Fenduser%2Fpie%2F%3Fpie%3D20%26vet%3DVIEWABILITY_EVENT_TYPE%26rtb%3DdD0xJmlpZD1iOGIyZmI3Yi05NWIwLTQ4MTctODc5Zi05MzMxM2UzZTkxNGImY3JpZD0zMDR6ZTkyNSZ3cD0ke0FVQ1RJT05fUFJJQ0U6QkZ9JmFpZD0xJndwYz1VU0Qmc2ZlPTE1YTA5NzJmJnB1aWQ9JnBpZD1nd2c4OHIzJmFnPXMzdHhzaWQmYWR2PXBtaWp5bzkmYnA9MC44Mjk0NDU5NDcxMjEzMDI0Mjg1ODQ4MTE4NTI3JmNmPTM5NzM5ODImZnE9MCZ0ZF9zPXd3dy51c2F0b2RheS5jb20mcmNhdHM9eTI5LDVyZiw3c3AsZW5iJm1zdGU9dXNhdG9kYXkuY29tJm1mbGQ9NCZtc3NpPSZtZnNpPSZ1aG93PTMxJmFnc2E9JnJnej04NTI0OSZzdmJ0dGQ9MSZkdD1QQyZvc2Y9V2luZG93cyZvcz1XaW5kb3dzMTAmYnI9RmlyZWZveCZybGFuZ3M9ZW4mbWxhbmc9JnN2cGlkPTExMzI0JmRpZD0mcmN4dD1PdGhlciZsYXQ9MzMuMjQwOTAwJmxvbj0tMTExLjc3OTIwMCZ0bXBjPTEyLjU4MDAwMDAwMDAwMDA0MSZkYWlkPSZ2cD0wJm9zaT0mb3N2PSZiZmZpPTQxJm1rPU1vemlsbGEmbWRsPUZpcmVmb3glMjAtJTIwV2luZG93cyZjPUNnMVZibWwwWldRZ1UzUmhkR1Z6RWdkQmNtbDZiMjVoR2dNM05UTWlDRU5vWVc1a2JHVnlPQUZRQzRBQkFJZ0JBWkFCQUxBQkFMb0JCQWdCR0FJLiZkdXI9Q2pnS0htTm9ZWEpuWlMxaGJHeEhjbUZ3WlhOb2IzUkNjbUZ1WkZOaFptVjBlU0lXQ1BiX19fX19fX19fX3dFU0NXZHlZWEJsYzJodmRBcEVDaWxqYUdGeVoyVXRZV3hzUkdsemNHeGhlVlpwWlhkaFltbHNhWFI1UW1sa1FXUnFkWE4wYldWdWRDSVhDSnJfX19fX19fX19fd0VTQ25FdFlXeHNhV0Z1WTJVS1B3b2xZMmhoY21kbExXRnNiRWR5WVhCbGMyaHZkRVJwYzNCc1lYbFFZV2RsVVhWaGJHbDBlU0lXQ043X19fX19fX19fX3dFU0NXZHlZWEJsYzJodmRBcElDaUZqYUdGeVoyVXRZV3hzVFc5aGRGWnBaWGRoWW1sc2FYUjVWSEpoWTJ0cGJtY2lJd2lsX19fX19fX19fXzhCRWc1dGIyRjBMWEpsY0c5eWRHbHVaeW9HQ01DRVBSZ00mY3JyZWxyPSZpcGw9aW52YWxpZF9zbG90bmFtZSZmcGE9ODA5JnBjbT0zJnZjPTImc2FpZD1mOGM0MWFmMDJlNDkwM2ZhMjRkZmI5NDQ2NGJiNGQ4NWM1MjgzYzZiJmljdD1Vbmtub3duJmF1Y3Q9MSZpbT0xJm1jPWU0NmY0MDUxLWQ1ODItNDdmZi04NmZmLTMyNzM3Y2JkM2M3MSZ0YWlsPTEmc3Y9cnViaWNvbiZ0YWlsPTE., line 243: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/smartologycustom240463152520/moatad.js#moatClientLevel1=1707&moatClientLevel2=3356&moatClientLevel3=8247&moatClientSlicer1=ft, line 238: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://808767-tags.mmi360.net/mmi-zip.js?cust=GMLMA&agency=MRG&type=js&plat=CM360&mode=ivt-blk&advid=10419879&siteid=3135427&cmpnid=27179176&pcmtid=328833978&crtvid=172038202&rndnum=2364824506&site=N463608.128367GOODWAYGROUP&adid=529503888&aucid=&exch=&sellid= line 1 > eval line 1 > eval, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 7634 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6364 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 1120 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667831636663	Marionette	INFO	Stopped listening on port 56576
+1667831714760	geckodriver	INFO	Listening on 127.0.0.1:59584
+1667831717771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59585" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilem2ZkNs"
+1667831718060	Marionette	INFO	Marionette enabled
+1667831718064	Marionette	INFO	Listening on port 59597
+Read port: 59597
+WebDriver BiDi listening on ws://127.0.0.1:59585
+1667831718146	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilem2ZkNs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59585/devtools/browser/1f3c579b-ae08-44de-a052-df90907e45fc
+1667831736748	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 4112 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+ner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65474" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileVxbf9y"
+1667831908784	Marionette	INFO	Marionette enabled
+1667831908788	Marionette	INFO	Listening on port 65486
+Read port: 65486
+WebDriver BiDi listening on ws://127.0.0.1:65474
+1667831908875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileVxbf9y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65474/devtools/browser/529705bd-2844-4aea-ae4f-00d586d7c7d3
+JavaScript error: https://platform.twitter.com/widgets.js, line 1: TypeError: window.twttr is undefined
+JavaScript error: https://factcheck.afp.com/sites/all/themes/custom/afpblog/v2/components/Select2/select2.min.js?rkzdk1, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1667831942218	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.adnxs.com/v/s/229/trk.js, line 493: TypeError: a is undefined
+JavaScript error: https://cdn.adnxs.com/v/s/229/trk.js, line 493: TypeError: a is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 924 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 5340 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 3550 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/ line 663 > injectedScript, line 1: ReferenceError: freestar is not defined
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 832: TypeError: document.querySelector(...) is null
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 832: ReferenceError: Splide is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://checkyourfact.com."
+1667831995153	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6953 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 1106 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 3114 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6378 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://factcheck.afp.com/sites/all/themes/custom/afpblog/v2/components/Select2/select2.min.js?rkzdk1, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 1130 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 1972 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/polar822lQSh10/moatad.js?moatClientLevel1=NA-USAT-11238597&moatClientLevel2=Center%20for%20the%20Future%20of%20Arizona&moatClientLevel3=Single%20Creative&moatClientLevel4=Arizona%20Voters%E2%80%99%20Agenda%20centers%20on%20voter%20priorities&moatClientSlicer1=Size-300x600%20Fn-Non%20Sports%20Creative%20%5B300x600%5D, line 236: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 5439 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-fycFLZkSGcUj7&moatClientLevel2=qfm&moatClientLevel3=0824b95c-4c5a-49a1-94c7-d6de44f3dbfe&moatClientLevel4=c56c4239-8af7-4936-9642-ad7da761dc6e&uid=GbpgaR6_M2hSvTQ5TPRiaBrge2Ua62RwTbw0P0bpMDlH72Zt9FQTUA==, line 239: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pix.adrta.com/cdnf.js?v=22.110, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6150 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667832043378	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: javascript:void;, line 1: SyntaxError: expected expression, got ';'
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 764 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667832052611	Marionette	INFO	Stopped listening on port 65486
+1667832115999	geckodriver	INFO	Listening on 127.0.0.1:62730
+1667832118991	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62731" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilei2LpNP"
+1667832119311	Marionette	INFO	Marionette enabled
+1667832119315	Marionette	INFO	Listening on port 62746
+WebDriver BiDi listening on ws://127.0.0.1:62731
+Read port: 62746
+1667832119693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilei2LpNP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62731/devtools/browser/1fa76f9e-91ce-4069-9d03-afb20d0ac5a3
+JavaScript error: https://platform.twitter.com/widgets.js, line 1: TypeError: window.twttr is undefined
