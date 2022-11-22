@@ -386,3 +386,611 @@ Read port: 62746
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilei2LpNP\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:62731/devtools/browser/1fa76f9e-91ce-4069-9d03-afb20d0ac5a3
 JavaScript error: https://platform.twitter.com/widgets.js, line 1: TypeError: window.twttr is undefined
+1669100253973	geckodriver	INFO	Listening on 127.0.0.1:60830
+1669100256995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60831" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileqqQMkd"
+1669100257309	Marionette	INFO	Marionette enabled
+1669100257314	Marionette	INFO	Listening on port 60840
+Read port: 60840
+WebDriver BiDi listening on ws://127.0.0.1:60831
+1669100257456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileqqQMkd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60831/devtools/browser/a2958dcf-8cae-44b2-ac7f-178455fc075f
+JavaScript error: https://platform.twitter.com/widgets.js, line 1: TypeError: window.twttr is undefined
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669100297973	Marionette	INFO	Stopped listening on port 60840
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669100387170	geckodriver	INFO	Listening on 127.0.0.1:60987
+1669100390179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilerzArLp"
+1669100390442	Marionette	INFO	Marionette enabled
+1669100390445	Marionette	INFO	Listening on port 60999
+Read port: 60999
+WebDriver BiDi listening on ws://127.0.0.1:60988
+1669100390524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilerzArLp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60988/devtools/browser/17a990e2-106f-426e-9cd2-9b6283f19aae
+JavaScript error: https://platform.twitter.com/widgets.js, line 1: TypeError: window.twttr is undefined
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669100398812	Marionette	INFO	Stopped listening on port 60999
+1669100570638	geckodriver	INFO	Listening on 127.0.0.1:61151
+1669100573640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61152" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileJCbYFT"
+1669100573892	Marionette	INFO	Marionette enabled
+1669100573896	Marionette	INFO	Listening on port 61162
+Read port: 61162
+WebDriver BiDi listening on ws://127.0.0.1:61152
+1669100574001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileJCbYFT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61152/devtools/browser/6e8a16fd-3ee0-47a1-9961-569db7083477
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/ line 663 > injectedScript, line 1: ReferenceError: freestar is not defined
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: TypeError: document.querySelector(...) is null
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: ReferenceError: Splide is not defined
+1669100594898	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669100597528	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1669100602727	Marionette	INFO	Stopped listening on port 61162
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1669115667509	geckodriver	INFO	Listening on 127.0.0.1:63672
+1669115670576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63673" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileryMVg7"
+1669115671232	Marionette	INFO	Marionette enabled
+1669115671237	Marionette	INFO	Listening on port 63683
+Read port: 63683
+WebDriver BiDi listening on ws://127.0.0.1:63673
+1669115671349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileryMVg7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63673/devtools/browser/400673d7-b149-4b24-80a3-57de2ebc2917
+JavaScript error: https://platform.twitter.com/widgets.js, line 1: TypeError: window.twttr is undefined
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.34.0/otBannerSdk.js, line 7: TypeError: r is undefined
+1669115688599	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 2557 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 3510 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://rtb.gumgum.com/usync/amzns2s?r=https%3A%2F%2Fs.amazon-adsystem.com%2Fdcm%3Fpid%3D1d602ef3-e6a6-4fad-b208-3ada49c66ebc%26id%3D, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 2418 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/yahoodisplay873773666324/moatad.js#moatClientLevel1=Yahoo!&moatClientLevel2=280334&moatClientLevel3=1424900&moatClientLevel4=3910454&moatClientSlicer1=120&moatClientSlicer2=0&zMoatAuctionID=8154161776892530191:1669115683215&zMoatAdReqDomain=snopes.com, line 238: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://a.teads.tv/media/vpaid-display/teads-vpaid-display.js, line 1: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript error: https://a.teads.tv/media/vpaid-display/teads-vpaid-display.js, line 1: SecurityError: Permission denied to access property Symbol.toPrimitive on cross-origin object
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/ line 663 > injectedScript, line 1: ReferenceError: freestar is not defined
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: TypeError: document.querySelector(...) is null
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: ReferenceError: Splide is not defined
+1669115736065	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669115738466	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1669115738468	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1669115738689	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 4209 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/polar822lQSh10/moatad.js?moatClientLevel1=NA-USAT-11238597&moatClientLevel2=Arizona%20Community%20Foundation&moatClientLevel3=Single%20Creative&moatClientLevel4=How%20the%20affordable%20housing%20crisis%20impacts%20us%20all&moatClientSlicer1=Size-300x600%20Fn-Non%20Sports%20Creative%20%5B300x600%5D, line 236: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1669115792410	Marionette	INFO	Stopped listening on port 63683
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669116375119	geckodriver	INFO	Listening on 127.0.0.1:52357
+1669116378146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52358" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileT8PlZp"
+1669116378481	Marionette	INFO	Marionette enabled
+1669116378484	Marionette	INFO	Listening on port 52370
+WebDriver BiDi listening on ws://127.0.0.1:52358
+Read port: 52370
+1669116378745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileT8PlZp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52358/devtools/browser/23aef0e2-68d5-432f-8528-6ea8cdd52a00
+Port.onMessage event fired while context is inactive.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/ line 663 > injectedScript, line 1: ReferenceError: freestar is not defined
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: TypeError: document.querySelector(...) is null
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: ReferenceError: Splide is not defined
+1669116390515	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669116393705	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://correctiv.org/faktencheck/2021/09/16/covid-19-tote-verkuerzte-ueberschrift-der-welt-fuehrt-zu-irrefuehrenden-behauptungen/, line 1047: ReferenceError: upScore is not defined
+JavaScript error: https://factual.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__JKs3TKl4DnOaTy31RDucafutq301Jd_SGVh7FphHECs.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://factual.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__JKs3TKl4DnOaTy31RDucafutq301Jd_SGVh7FphHECs.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669116426644	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669116426645	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669116426646	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669116426647	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 183: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669116462310	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lupa.uol.com.br/static/js/main.7287735c.chunk.js, line 1: TypeError: n is undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669116464885	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lupa.uol.com.br/static/js/main.7287735c.chunk.js, line 1: TypeError: n is undefined
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669116475858	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lupa.uol.com.br/static/js/main.7287735c.chunk.js, line 1: TypeError: n is undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669116481123	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669116481199	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669116481200	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lupa.uol.com.br/jornalismo//lupa/2021/09/13/verificamos-video-medica-seguranca-vacinas/, line 23: ChunkLoadError: Loading chunk 6 failed.
+(error: https://lupa.uol.com.br/static/js/6.bfc0339e.chunk.js)
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669116500483	Marionette	INFO	Stopped listening on port 52370
+1669121354011	geckodriver	INFO	Listening on 127.0.0.1:49210
+1669121357025	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileEjwmzu"
+1669121357377	Marionette	INFO	Marionette enabled
+1669121357380	Marionette	INFO	Listening on port 49222
+Read port: 49222
+WebDriver BiDi listening on ws://127.0.0.1:49211
+1669121357479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileEjwmzu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49211/devtools/browser/9cbfe29c-4a0e-4fd5-a43c-b7fbc1a55dc8
+1669121364725	Marionette	INFO	Stopped listening on port 49222
+[Parent 36244, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1669122815404	geckodriver	INFO	Listening on 127.0.0.1:55328
+1669122818434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55329" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileo0PZDn"
+1669122818833	Marionette	INFO	Marionette enabled
+1669122818837	Marionette	INFO	Listening on port 55342
+Read port: 55342
+WebDriver BiDi listening on ws://127.0.0.1:55329
+1669122818918	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileo0PZDn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55329/devtools/browser/85d033f8-c886-45b0-bc33-bd95879e1ae6
+1669122917552	geckodriver	INFO	Listening on 127.0.0.1:55419
+1669122920584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55420" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileUwVBCI"
+1669122920855	Marionette	INFO	Marionette enabled
+1669122920859	Marionette	INFO	Listening on port 55431
+Read port: 55431
+WebDriver BiDi listening on ws://127.0.0.1:55420
+1669122920937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileUwVBCI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55420/devtools/browser/81018bd4-8f68-4346-8d73-80418707797c
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669122925181	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669122927703	Marionette	INFO	Stopped listening on port 55431
+1669123058787	geckodriver	INFO	Listening on 127.0.0.1:55552
+1669123061797	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55553" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileAM8R0p"
+1669123062050	Marionette	INFO	Marionette enabled
+1669123062053	Marionette	INFO	Listening on port 55562
+Read port: 55562
+WebDriver BiDi listening on ws://127.0.0.1:55553
+1669123062142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileAM8R0p\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55553/devtools/browser/6be01723-16fc-4b45-b092-757d649ba6e8
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669123065343	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669123067875	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669123067876	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lupa.uol.com.br/static/js/main.7287735c.chunk.js, line 1: TypeError: n is undefined
+1669123068988	Marionette	INFO	Stopped listening on port 55562
+1669123940794	geckodriver	INFO	Listening on 127.0.0.1:64206
+1669123943806	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64207" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileVh3aIT"
+1669123944060	Marionette	INFO	Marionette enabled
+1669123944063	Marionette	INFO	Listening on port 64217
+Read port: 64217
+WebDriver BiDi listening on ws://127.0.0.1:64207
+1669123944164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileVh3aIT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64207/devtools/browser/278e5c50-5395-45c2-8732-158d106b8c57
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669123947318	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lupa.uol.com.br/static/js/main.7287735c.chunk.js, line 1: TypeError: n is undefined
+1669123950784	Marionette	INFO	Stopped listening on port 64217
+[Parent 10648, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1669124068210	geckodriver	INFO	Listening on 127.0.0.1:64325
+1669124071224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64326" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofile9lzmAw"
+1669124071494	Marionette	INFO	Marionette enabled
+1669124071497	Marionette	INFO	Listening on port 64341
+Read port: 64341
+WebDriver BiDi listening on ws://127.0.0.1:64326
+1669124071575	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofile9lzmAw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64326/devtools/browser/84633dec-dcdf-4f03-aaf0-0fd58ed85b6c
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669124075092	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lupa.uol.com.br/static/js/main.7287735c.chunk.js, line 1: TypeError: n is undefined
+1669124078779	Marionette	INFO	Stopped listening on port 64341
+1669124814303	geckodriver	INFO	Listening on 127.0.0.1:64636
+1669124817336	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64637" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileoiiI1k"
+1669124817755	Marionette	INFO	Marionette enabled
+1669124817758	Marionette	INFO	Listening on port 64647
+WebDriver BiDi listening on ws://127.0.0.1:64637
+Read port: 64647
+1669124818025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileoiiI1k\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64637/devtools/browser/b73ab748-6d29-4254-b458-d210dc18c313
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669124821154	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lupa.uol.com.br/static/js/main.7287735c.chunk.js, line 1: TypeError: n is undefined
+1669124824918	Marionette	INFO	Stopped listening on port 64647
+1669124929535	geckodriver	INFO	Listening on 127.0.0.1:64768
+1669124932546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64769" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofile1JxTsr"
+1669124932802	Marionette	INFO	Marionette enabled
+1669124932805	Marionette	INFO	Listening on port 64780
+Read port: 64780
+WebDriver BiDi listening on ws://127.0.0.1:64769
+1669124932907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofile1JxTsr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64769/devtools/browser/48033907-0776-4aa2-9f11-a083b248c2df
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669124936433	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lupa.uol.com.br/static/js/main.7287735c.chunk.js, line 1: TypeError: n is undefined
+1669124939712	Marionette	INFO	Stopped listening on port 64780
+1669124968305	geckodriver	INFO	Listening on 127.0.0.1:64867
+1669124971343	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64868" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileYqxCJj"
+1669124971696	Marionette	INFO	Marionette enabled
+1669124971699	Marionette	INFO	Listening on port 64877
+WebDriver BiDi listening on ws://127.0.0.1:64868
+Read port: 64877
+1669124971855	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileYqxCJj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64868/devtools/browser/f5d95096-154c-4304-8d71-b20429536d26
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669124974951	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lupa.uol.com.br/static/js/main.7287735c.chunk.js, line 1: TypeError: n is undefined
+1669124977882	Marionette	INFO	Stopped listening on port 64877
+1669124995544	geckodriver	INFO	Listening on 127.0.0.1:64973
+1669124998577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64974" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileRwhuoW"
+1669124998913	Marionette	INFO	Marionette enabled
+1669124998916	Marionette	INFO	Listening on port 64987
+WebDriver BiDi listening on ws://127.0.0.1:64974
+Read port: 64987
+1669124999182	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileRwhuoW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64974/devtools/browser/82422504-084f-4925-af7e-1b34192ba3d9
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669125002373	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125004809	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125004810	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://lupa.uol.com.br/jornalismo/2021/09/13/verificamos-video-medica-seguranca-vacinas/, line 23: ChunkLoadError: Loading chunk 5 failed.
+(error: https://lupa.uol.com.br/static/js/5.51500750.chunk.js)
+1669125006783	Marionette	INFO	Stopped listening on port 64987
+1669125158271	geckodriver	INFO	Listening on 127.0.0.1:65115
+1669125161290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65116" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileaoDJK1"
+1669125161643	Marionette	INFO	Marionette enabled
+1669125161646	Marionette	INFO	Listening on port 65129
+Read port: 65129
+WebDriver BiDi listening on ws://127.0.0.1:65116
+1669125161745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileaoDJK1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65116/devtools/browser/7c130d46-b897-48fe-a851-1e9dc71964a9
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669125165270	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125167973	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125167975	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125168998	Marionette	INFO	Stopped listening on port 65129
+1669125188035	geckodriver	INFO	Listening on 127.0.0.1:65195
+1669125191076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65196" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileAKbgN6"
+1669125191358	Marionette	INFO	Marionette enabled
+1669125191362	Marionette	INFO	Listening on port 65207
+Read port: 65207
+WebDriver BiDi listening on ws://127.0.0.1:65196
+1669125191439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileAKbgN6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65196/devtools/browser/fa7b1717-5fc5-4a67-b3cd-837ee85260cc
+Port.onMessage event fired while context is inactive.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669125194895	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125197148	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125197149	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125199335	Marionette	INFO	Stopped listening on port 65207
+1669125367743	geckodriver	INFO	Listening on 127.0.0.1:65324
+1669125370758	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65325" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileuu99Zg"
+1669125371013	Marionette	INFO	Marionette enabled
+1669125371017	Marionette	INFO	Listening on port 65334
+Read port: 65334
+WebDriver BiDi listening on ws://127.0.0.1:65325
+1669125371118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileuu99Zg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65325/devtools/browser/de5d452f-e7ce-4ec7-98c8-b3d997379b6c
+Port.onMessage event fired while context is inactive.
+JavaScript error: https://platform.twitter.com/widgets.js, line 1: TypeError: window.twttr is undefined
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/ line 663 > injectedScript, line 1: ReferenceError: freestar is not defined
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: TypeError: document.querySelector(...) is null
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: ReferenceError: Splide is not defined
+1669125384565	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669125386310	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://correctiv.org/faktencheck/2021/09/16/covid-19-tote-verkuerzte-ueberschrift-der-welt-fuehrt-zu-irrefuehrenden-behauptungen/, line 1047: ReferenceError: upScore is not defined
+JavaScript error: https://factual.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__JKs3TKl4DnOaTy31RDucafutq301Jd_SGVh7FphHECs.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://factual.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__JKs3TKl4DnOaTy31RDucafutq301Jd_SGVh7FphHECs.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669125466683	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125469186	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125469189	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669125471403	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125471471	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125471472	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669125487809	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125487879	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125487881	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669125494189	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125494255	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669125494257	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669125516250	Marionette	INFO	Stopped listening on port 65334
+1669129690055	geckodriver	INFO	Listening on 127.0.0.1:51790
+1669129693063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51791" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileeCpWPf"
+1669129693343	Marionette	INFO	Marionette enabled
+1669129693347	Marionette	INFO	Listening on port 51800
+Read port: 51800
+WebDriver BiDi listening on ws://127.0.0.1:51791
+1669129693437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileeCpWPf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51791/devtools/browser/d12f4de4-e9a9-476e-9000-a18e56596865
+Port.onMessage event fired while context is inactive.
+1669129697836	Marionette	INFO	Stopped listening on port 51800
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1669129719583	geckodriver	INFO	Listening on 127.0.0.1:51857
+1669129722617	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51858" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilepZR1jf"
+1669129722919	Marionette	INFO	Marionette enabled
+1669129722923	Marionette	INFO	Listening on port 51868
+Read port: 51868
+WebDriver BiDi listening on ws://127.0.0.1:51858
+1669129723005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilepZR1jf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51858/devtools/browser/5d49d417-0fe5-4ab5-be58-95ac9cc4d59c
+Port.onMessage event fired while context is inactive.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1669129731412	Marionette	INFO	Stopped listening on port 51868
+1669129768776	geckodriver	INFO	Listening on 127.0.0.1:51948
+1669129771790	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51949" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileaaqyMQ"
+1669129772055	Marionette	INFO	Marionette enabled
+1669129772058	Marionette	INFO	Listening on port 51960
+Read port: 51960
+WebDriver BiDi listening on ws://127.0.0.1:51949
+1669129772145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileaaqyMQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51949/devtools/browser/b0cfe429-fae4-49a2-b31b-0965e3d0329a
+Port.onMessage event fired while context is inactive.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1669129777889	Marionette	INFO	Stopped listening on port 51960
+1669130180038	geckodriver	INFO	Listening on 127.0.0.1:52177
+1669130183062	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52178" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileyaKjMR"
+1669130183420	Marionette	INFO	Marionette enabled
+1669130183424	Marionette	INFO	Listening on port 52189
+Read port: 52189
+WebDriver BiDi listening on ws://127.0.0.1:52178
+1669130183528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileyaKjMR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52178/devtools/browser/a860a89b-5317-45fc-ae7c-c2a2114f88f0
+Port.onMessage event fired while context is inactive.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1669130191601	Marionette	INFO	Stopped listening on port 52189
+1669130292784	geckodriver	INFO	Listening on 127.0.0.1:52315
+1669130295805	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52316" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileruS2fT"
+1669130296087	Marionette	INFO	Marionette enabled
+1669130296092	Marionette	INFO	Listening on port 52325
+Read port: 52325
+WebDriver BiDi listening on ws://127.0.0.1:52316
+1669130296177	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileruS2fT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52316/devtools/browser/b5de8824-83e4-43cd-8cb1-808fcff0a5a9
+Port.onMessage event fired while context is inactive.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1669130304201	Marionette	INFO	Stopped listening on port 52325
+1669131685696	geckodriver	INFO	Listening on 127.0.0.1:61625
+1669131688706	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61626" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilekoAzeI"
+1669131688959	Marionette	INFO	Marionette enabled
+1669131688963	Marionette	INFO	Listening on port 61637
+Read port: 61637
+WebDriver BiDi listening on ws://127.0.0.1:61626
+1669131689080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilekoAzeI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61626/devtools/browser/a034b91b-78f0-4519-aa0c-2e8aa2eb7a19
+Port.onMessage event fired while context is inactive.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1669131697187	Marionette	INFO	Stopped listening on port 61637
+1669131750663	geckodriver	INFO	Listening on 127.0.0.1:61731
+1669131753674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61732" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileVvGwcs"
+1669131753926	Marionette	INFO	Marionette enabled
+1669131753930	Marionette	INFO	Listening on port 61743
+Read port: 61743
+WebDriver BiDi listening on ws://127.0.0.1:61732
+1669131754028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileVvGwcs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61732/devtools/browser/188ee82a-9ffc-487b-9a08-e505c9e7afc4
+Port.onMessage event fired while context is inactive.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1669131761935	Marionette	INFO	Stopped listening on port 61743
+1669131825915	geckodriver	INFO	Listening on 127.0.0.1:61856
+1669131828926	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofile866Hnh"
+1669131829182	Marionette	INFO	Marionette enabled
+1669131829186	Marionette	INFO	Listening on port 61866
+Read port: 61866
+WebDriver BiDi listening on ws://127.0.0.1:61857
+1669131829292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofile866Hnh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61857/devtools/browser/e9a8faac-39f0-47da-95e9-6adb9693ff41
+Port.onMessage event fired while context is inactive.
+JavaScript error: https://platform.twitter.com/widgets.js, line 1: TypeError: window.twttr is undefined
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/ line 663 > injectedScript, line 1: ReferenceError: freestar is not defined
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: TypeError: document.querySelector(...) is null
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: ReferenceError: Splide is not defined
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669131845269	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://correctiv.org/faktencheck/2021/09/16/covid-19-tote-verkuerzte-ueberschrift-der-welt-fuehrt-zu-irrefuehrenden-behauptungen/, line 1047: ReferenceError: upScore is not defined
+JavaScript error: https://ats-wrapper.privacymanager.io/ats-modules/6fbf74f5-22f0-45ea-952c-e066909dd9f1/ats.js, line 3: TypeError: t is undefined
+JavaScript error: https://factual.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__JKs3TKl4DnOaTy31RDucafutq301Jd_SGVh7FphHECs.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://factual.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__JKs3TKl4DnOaTy31RDucafutq301Jd_SGVh7FphHECs.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669131908638	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669131911022	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669131911023	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669131913266	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669131913338	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669131913339	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669131925958	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669131926046	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669131926047	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669131931789	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669131931864	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669131931866	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+1669131968470	Marionette	INFO	Stopped listening on port 61866
+[Parent 26304, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669132128053	geckodriver	INFO	Listening on 127.0.0.1:62345
+1669132131063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62346" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilevW1df3"
+1669132131336	Marionette	INFO	Marionette enabled
+1669132131340	Marionette	INFO	Listening on port 62357
+Read port: 62357
+WebDriver BiDi listening on ws://127.0.0.1:62346
+1669132131422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilevW1df3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62346/devtools/browser/51b2de0a-73db-47a3-8a2d-7766d901b861
+Port.onMessage event fired while context is inactive.
+JavaScript error: https://platform.twitter.com/widgets.js, line 1: TypeError: window.twttr is undefined
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/ line 663 > injectedScript, line 1: ReferenceError: freestar is not defined
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: TypeError: document.querySelector(...) is null
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: ReferenceError: Splide is not defined
+1669132144089	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669132147856	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://correctiv.org/faktencheck/2021/09/16/covid-19-tote-verkuerzte-ueberschrift-der-welt-fuehrt-zu-irrefuehrenden-behauptungen/, line 1047: ReferenceError: upScore is not defined
+JavaScript error: https://factual.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__JKs3TKl4DnOaTy31RDucafutq301Jd_SGVh7FphHECs.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://factual.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__JKs3TKl4DnOaTy31RDucafutq301Jd_SGVh7FphHECs.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669132174385	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669132181406	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669132181407	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669132181410	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669132181411	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669132181412	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669132181413	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669132181414	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669132181414	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1669132181415	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.34.0/otBannerSdk.js, line 7: TypeError: un.bannerGroup is undefined
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669132206434	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669132208536	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669132208537	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669132210767	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669132210836	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669132210837	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669132216184	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Object
+1669132221966	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669132222141	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669132222202	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669132222203	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://tm.jsuol.com.br/uoltm.js?id=1fn4rt, line 1: unreachable code after return statement
+1669132226409	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669132226483	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669132226485	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+1669132244282	Marionette	INFO	Stopped listening on port 62357
+1669132729708	geckodriver	INFO	Listening on 127.0.0.1:63085
+1669132732716	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63086" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileXoNsmc"
+1669132732968	Marionette	INFO	Marionette enabled
+1669132732972	Marionette	INFO	Listening on port 63098
+Read port: 63098
+WebDriver BiDi listening on ws://127.0.0.1:63086
+1669132733070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileXoNsmc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63086/devtools/browser/e313966e-ea13-4fa4-aa70-b69b42952fa8
+Port.onMessage event fired while context is inactive.
+JavaScript error: https://cdn.embedly.com/widgets/platform.js, line 7: TypeError: e is undefined
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.34.0/otBannerSdk.js, line 7: TypeError: r is undefined
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/ line 663 > injectedScript, line 1: ReferenceError: freestar is not defined
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: TypeError: document.querySelector(...) is null
+JavaScript error: https://checkyourfact.com/2021/09/16/fact-check-walmart-canada-require-proof-vaccination-enter/, line 833: ReferenceError: Splide is not defined
+1669132744873	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://factcheck.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__1motoMhogn4-LmFTOSQe52-ueFiJ-892YwZHVY35O4I.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669132745593	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1669132746554	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://correctiv.org/faktencheck/2021/09/16/covid-19-tote-verkuerzte-ueberschrift-der-welt-fuehrt-zu-irrefuehrenden-behauptungen/, line 1047: ReferenceError: upScore is not defined
+JavaScript error: https://factual.afp.com/sites/default/files/advagg_js/js__3SsYiEug6O6D2Uo485caWLRfREDwq9hHsqDI8JiTtps__9JWxwePVePDsooV572ooV2Y_65D8aZldNNFXSqGExUM__JKs3TKl4DnOaTy31RDucafutq301Jd_SGVh7FphHECs.js, line 1: uncaught exception: query function not defined for Select2 s2id_lang-dropdown-select-language_content
+1669132766604	Marionette	INFO	Stopped listening on port 63098
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669134777665	geckodriver	INFO	Listening on 127.0.0.1:55621
+1669134780678	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55623" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileCgrXI6"
+1669134780931	Marionette	INFO	Marionette enabled
+1669134780935	Marionette	INFO	Listening on port 55634
+Read port: 55634
+WebDriver BiDi listening on ws://127.0.0.1:55623
+1669134781036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofileCgrXI6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55623/devtools/browser/8c53953b-0dfa-4de1-9da6-00669898e107
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1669134878118	Marionette	INFO	Stopped listening on port 55634
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1669135033490	geckodriver	INFO	Listening on 127.0.0.1:55768
+1669135036500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55769" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilefKRY1F"
+1669135036758	Marionette	INFO	Marionette enabled
+1669135036762	Marionette	INFO	Listening on port 55781
+Read port: 55781
+WebDriver BiDi listening on ws://127.0.0.1:55769
+1669135036844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\liand\\AppData\\Local\\Temp\\rust_mozprofilefKRY1F\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55769/devtools/browser/4f75aa04-47ea-47d4-8377-a66e677c26f1
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1669135053685	Marionette	INFO	Stopped listening on port 55781
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
