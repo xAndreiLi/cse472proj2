@@ -10,16 +10,19 @@ from googletrans import Translator
 from utils import *
 from extract import *
 
+df = pd.read_pickle('./data/train1.pkl')
+print_data(df.iloc[0:5])
+
 # include = [1,5,7,9,12,13,14,16,21,35,38,43,45,46]
-include = [37,38]
-save_pkl('train', out="./data/devtest.pkl", include=include)
-save_translation('devtest')
-df = extract('devtest')
-print_data(df)
+include = [i for i in range(100)]
+# save_pkl('train', out="./data/devtest.pkl", include=include)
+# save_translation('train1')
+# df = extract('train1')
+# print_data(df)
 
 # tr = Translator()
-# text = "Anthony Fauci está en tela de juicio en Estados Unidos tras hacerse públicos miles de emails en los que el doctor reconoce que el virus podía haber salido del laboratorio de Wuhan"
-# print(tr.translate(text).text)
+# text = "un bulo."
+# print(tr.translate(text))
 
 # for i in range(0,10):
 # 	print_progress(i,9,"Test")

@@ -32,7 +32,7 @@ def visible_text(element) -> bool:
     return True
 
 
-def save_pkl(src:str, out:str=None, nrows:int=None, include:list=None) -> None:
+def save_pkl(src:str, out:str=None, nrows:int=None, skiprows:int=None, include:list=None) -> None:
 	'''
 	Add column containing html string to train.csv and save to train.pkl
 
@@ -47,7 +47,7 @@ def save_pkl(src:str, out:str=None, nrows:int=None, include:list=None) -> None:
 	srcPath = f'./data/{src}.csv'
 	if not out: out = f'./data/{src}.pkl'
 		
-	df = pd.read_csv(srcPath, nrows=nrows)
+	df = pd.read_csv(srcPath, nrows=nrows, skiprows=skiprows)
 	if include: df = df.iloc[include]
 	# Rename columns
 	df.rename(columns={
@@ -75,9 +75,13 @@ def save_pkl(src:str, out:str=None, nrows:int=None, include:list=None) -> None:
 			print_progress("Fetching HTML")
 		
 		text = text_from_html(driver.page_source)
+		retry = 0
 		while len(text) < 1500:
+			if retry > 5:
+				break
 			time.sleep(1)
 			text = text_from_html(driver.page_source)
+			retry += 1
 		return text
 
 	global progEnd
@@ -96,7 +100,7 @@ def text_from_html(html) -> str:
     soup = bs(html, 'html.parser')
     text:list[str] = soup.findAll(text=True)
     text = list(filter(visible_text, text)) 
-    return u' '.join(t.strip() for t in text)
+    return u'. '.join(t.strip() for t in text)
 
 
 def tokenize(text):
@@ -118,8 +122,13 @@ def translate_language(sents:list[str]):
 
 	tr = Translator()
 	# Check if already english from sample of sentences
-	lang = tr.detect(' '.join(sents[5:10])).lang
-	if lang == 'en': return sents
+	try:
+		lang = tr.detect(' '.join(sents[5:10])).lang
+		if lang == 'en': return sents
+	except Exception as err:
+		print(err)
+		print(sents)
+		return "Error"
 
 	chunks = []
 	chunk = ''
@@ -132,14 +141,19 @@ def translate_language(sents:list[str]):
 
 	bulk = ''
 	for chunk in chunks:
-		bulk += tr.translate(chunk).text
+		try:
+			bulk += tr.translate(chunk, src=lang).text
+		except Exception as err:
+			print(err)
+			print(sents)
+			return "Error"
 
 	translated = bulk.split('\n')
 
 	return translated
 
 
-def sanitize_tokens(sents:list[str]) -> list[str]:
+def filter_fragments(sents:list[str]) -> list[str]:
 	# Separate sentences by commas to narrow down text
 	fragments:list[str] = []
 	for sent in sents:
@@ -149,10 +163,10 @@ def sanitize_tokens(sents:list[str]) -> list[str]:
 	keywords = [
 		'true', 'false', 'mislead', 'fake', 'truth', 'wrong', "baseless",
 		'evidence', 'proof', 'misinformation', 'basis', 'inaccurate', 'fallacious',
-		'rating', 'labeled'
+		'rating', 'labeled', 'bully', 'verdict'
 	]
 	stopwords = [
-		'site', 'article', 'if', 'you', '. . .'
+		'read', 'fact check', 'more', 'we ', 'previous', 'next'
 	]
 	fragments = list(filter(lambda x: (
 		any(key in x for key in keywords) and not any(stop in x for stop in stopwords)
@@ -160,49 +174,81 @@ def sanitize_tokens(sents:list[str]) -> list[str]:
 		fragments
 	))
 
+	return fragments
+
+
+def stem_words(fragments:list[str]):
 	# Word Tokenize for filter and stemming
-	keywords.extend([
-		'claim', 'output', 'psuedo', 'fact', 'check', 'half',
-		'true', 'real', 'fiction', 'satire', 'without'
-		])
-
-	stopwords = [
-		''
-	]
-
-	truthy = ['true', 'truth', ]
-	misleady = ['evidence']
-	
-	sanitized = []
+	stemmed = []
 	stemmer = SnowballStemmer('english')
 	for frag in fragments:
+		frag = frag.translate(str.maketrans('', '', string.punctuation))
 		words = word_tokenize(frag)
 		stems = []
-		negFlag = False
 		for word in words:
-			negators = ['not', 'no']
-			if word in negators: negFlag = True; continue
-			if word in keywords:
-				if negFlag: stems.append()
-				stems.append(word) 
-				continue
 			stems.append(stemmer.stem(word))
-		words = [word for word in stems if word in keywords]
+		stemmed.append(stems)
+	
+	return stemmed
+
+
+def filter_stems(stems:list):
+	keywords = [
+		'true', 'fals', 'fake', 'mislead', 'not', 'misinform', 'no',
+		'proof', 'evid', 'lie', 'wrong'
+	]
+	negators = ['not', 'no']
+	negDict = {
+			'true':'fals',
+			'truth':'fals',
+			'proof':'mislead',
+			'evid':'mislead',
+			'basis':'mislead',
+			'misinform':'mislead',
+			'mislead':'mislead',
+			'fals':'true',
+			'fake':'true',
+			'wrong':'true',
+			'not':'',
+			'no':''
+		}
+	filtered = []
+	for sent in stems:
+		sentFil = []
+		for word in sent:
+			if word in keywords: sentFil.append(word)
+		for ind, word in enumerate(sentFil):
+			if (word in negators):
+				sentFil[ind] = ""
+				if (ind+1 < len(sentFil)):
+					sentFil[ind+1] = negDict[sentFil[ind+1]]
+
+		filtered.extend(sentFil)
+		filtered = [word for word in filtered if word != '']
+		filtered = [*set(filtered)]
+	return filtered
+
+
+
+	# 	
 		
-		if words:
-			concluders = ['rating', 'output', 'labeled']
-			if (len(words)>1) and (words[0] in concluders): return [words[1]]
-			sanitized.append(" ".join(words))
-	# Remove duplicates
-	sanitized = [*set(sanitized)]
-	return sanitized
+	# 	for ind, word in enumerate(words):
+	# 		if word in negators:
+	# 			words[ind] = ""
+	# 			words[ind+1] = negDict[words[ind+1]]
+		
+	# 	if words:
+	# 		concluders = ['rating', 'output', 'labeled']
+	# 		if (len(words)>1) and (words[0] in concluders): return [words[1]]
+	# 		sanitized.append(" ".join(words))
+	# # Remove duplicates
+	# sanitized = [*set(sanitized)]
+	# return sanitized
 
 
 def print_progress(text:str='Progress'):
 	'''
 	Prints progress of task on the same line
-
-	Usage: Call on every iteration, passing incremented curr parameter
 
 	Output: "Doing Task: 1/50"
 
@@ -242,7 +288,7 @@ def init_browser():
 		desired_capabilities=capabilities
 	)
 	driver.get("chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm/dashboard.html#settings.html")
-	time.sleep(.5)
+	time.sleep(1)
 	frame = driver.find_element(By.ID,'iframe')
 	driver.switch_to.frame(frame)
 
