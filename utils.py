@@ -7,6 +7,8 @@ from bs4.element import Comment
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options as ChromeOptions
@@ -22,17 +24,60 @@ from nltk.stem.snowball import SnowballStemmer
 # Global Variables
 progress = 1
 progEnd = None
+driver = None
 
 # Filter function
 def visible_text(element) -> bool:
-    if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]']:
-        return False
-    if isinstance(element, Comment):
-        return False
-    return True
+	if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]']:
+		return False
+	if isinstance(element, Comment):
+		return False
+	return True
 
 
-def save_pkl(src:str, out:str=None, nrows:int=None, skiprows:int=None, include:list=None) -> None:
+def get_page(url):
+	if('piaui.folha' in url):
+		url = url.replace(
+			'piaui.folha.uol.com.br/lupa',
+			'lupa.uol.com.br/jornalismo'
+		)
+	try:
+		driver.get(url)
+	except :
+		print('Connection Error')
+	finally:
+		print_progress("Fetching HTML")
+	
+	text = text_from_html(driver.page_source)
+	retry = 0
+	while len(text) < 3000:
+		if retry > 5:
+			break
+		time.sleep(1)
+		text = text_from_html(driver.page_source)
+		retry += 1
+
+
+# Apply function
+def save_html(row:pd.Series) -> pd.Series:
+	global driver
+	url = row['url']
+	row['html'] = ''
+	row['title'] = ''
+	
+	get_page(url)
+
+	if any(key in driver.title.lower() for key in ['404', 'not found']):
+		url = fix_url(url)
+		get_page(url)
+
+	row['html'] = driver.page_source
+	row['title'] = driver.title.lower()
+
+	return row
+
+
+def save_pkl(src:str, out:str=None, nrows:int=None, skiprows:int=None, include:list=None, newUrls=None) -> None:
 	'''
 	Add column containing html string to train.csv and save to train.pkl
 
@@ -42,6 +87,7 @@ def save_pkl(src:str, out:str=None, nrows:int=None, skiprows:int=None, include:l
 			nrows (int): Number of rows to read from csv
 			include (list): List of row indices to save
 	'''
+	global driver
 	driver = init_browser()
 
 	srcPath = f'./data/{src}.csv'
@@ -59,35 +105,17 @@ def save_pkl(src:str, out:str=None, nrows:int=None, skiprows:int=None, include:l
 		'Fact-checked Article':'url'
 	}, inplace=True)
 
-	# Apply function
-	def save_html(url: str) -> str:
-		# Reroute to new site url
-		if('piaui.folha' in url):
-			url = url.replace(
-				'piaui.folha.uol.com.br/lupa',
-				'lupa.uol.com.br/jornalismo'
-			)
-		try:
-			driver.get(url)
-		except :
-			return 'Connection Error'
-		finally:
-			print_progress("Fetching HTML")
-		
-		text = text_from_html(driver.page_source)
-		retry = 0
-		while len(text) < 1500:
-			if retry > 5:
-				break
-			time.sleep(1)
-			text = text_from_html(driver.page_source)
-			retry += 1
-		return text
-
 	global progEnd
 	progEnd = len(df.url)
+
+	if newUrls:
+		i = 0
+		for ind in include:
+			df.url[ind] = newUrls[i]
+			i += 1
+
 	
-	df['text'] = df.url.apply(save_html)
+	df = df.apply(save_html, axis=1)
 	df.to_pickle(out)
 	driver.close()
 
@@ -97,10 +125,10 @@ def save_pkl(src:str, out:str=None, nrows:int=None, skiprows:int=None, include:l
 
 # Get visible text from html
 def text_from_html(html) -> str:
-    soup = bs(html, 'html.parser')
-    text:list[str] = soup.findAll(text=True)
-    text = list(filter(visible_text, text)) 
-    return u'. '.join(t.strip() for t in text)
+	soup = bs(html, 'html.parser')
+	text:list[str] = soup.findAll(text=True)
+	text = list(filter(visible_text, text)) 
+	return u' '.join(t.strip() for t in text)
 
 
 def tokenize(text):
@@ -123,7 +151,7 @@ def translate_language(sents:list[str]):
 	tr = Translator()
 	# Check if already english from sample of sentences
 	try:
-		lang = tr.detect(' '.join(sents[5:10])).lang
+		lang = tr.detect(' '.join(sents[3:6])).lang
 		if lang == 'en': return sents
 	except Exception as err:
 		print(err)
@@ -133,7 +161,7 @@ def translate_language(sents:list[str]):
 	chunks = []
 	chunk = ''
 	for sent in sents:
-		if len(chunk)+len(sent) > 4999:
+		if len(chunk)+len(sent) > 4000:
 			chunks.append(chunk)
 			chunk = ''
 		chunk += sent + '\n'
@@ -155,95 +183,23 @@ def translate_language(sents:list[str]):
 
 def filter_fragments(sents:list[str]) -> list[str]:
 	# Separate sentences by commas to narrow down text
-	fragments:list[str] = []
-	for sent in sents:
-		fragments.extend(re.split(r',', sent.lower()))
 	
 	# Filter for sentence fragments containing keywords and no stopwords
 	keywords = [
 		'true', 'false', 'mislead', 'fake', 'truth', 'wrong', "baseless",
 		'evidence', 'proof', 'misinformation', 'basis', 'inaccurate', 'fallacious',
-		'rating', 'labeled', 'bully', 'verdict'
+		'rating', 'labeled', 'bully', 'verdict', 'claim', 'mistake', 'unrealistic'
 	]
 	stopwords = [
-		'read', 'fact check', 'more', 'we ', 'previous', 'next'
+
 	]
 	fragments = list(filter(lambda x: (
 		any(key in x for key in keywords) and not any(stop in x for stop in stopwords)
 		), 
-		fragments
+		sents
 	))
 
-	return fragments
-
-
-def stem_words(fragments:list[str]):
-	# Word Tokenize for filter and stemming
-	stemmed = []
-	stemmer = SnowballStemmer('english')
-	for frag in fragments:
-		frag = frag.translate(str.maketrans('', '', string.punctuation))
-		words = word_tokenize(frag)
-		stems = []
-		for word in words:
-			stems.append(stemmer.stem(word))
-		stemmed.append(stems)
-	
-	return stemmed
-
-
-def filter_stems(stems:list):
-	keywords = [
-		'true', 'fals', 'fake', 'mislead', 'not', 'misinform', 'no',
-		'proof', 'evid', 'lie', 'wrong'
-	]
-	negators = ['not', 'no']
-	negDict = {
-			'true':'fals',
-			'truth':'fals',
-			'proof':'mislead',
-			'evid':'mislead',
-			'basis':'mislead',
-			'misinform':'mislead',
-			'mislead':'mislead',
-			'fals':'true',
-			'fake':'true',
-			'wrong':'true',
-			'not':'',
-			'no':''
-		}
-	filtered = []
-	for sent in stems:
-		sentFil = []
-		for word in sent:
-			if word in keywords: sentFil.append(word)
-		for ind, word in enumerate(sentFil):
-			if (word in negators):
-				sentFil[ind] = ""
-				if (ind+1 < len(sentFil)):
-					sentFil[ind+1] = negDict[sentFil[ind+1]]
-
-		filtered.extend(sentFil)
-		filtered = [word for word in filtered if word != '']
-		filtered = [*set(filtered)]
-	return filtered
-
-
-
-	# 	
-		
-	# 	for ind, word in enumerate(words):
-	# 		if word in negators:
-	# 			words[ind] = ""
-	# 			words[ind+1] = negDict[words[ind+1]]
-		
-	# 	if words:
-	# 		concluders = ['rating', 'output', 'labeled']
-	# 		if (len(words)>1) and (words[0] in concluders): return [words[1]]
-	# 		sanitized.append(" ".join(words))
-	# # Remove duplicates
-	# sanitized = [*set(sanitized)]
-	# return sanitized
+	return " ".join(fragments)
 
 
 def print_progress(text:str='Progress'):
@@ -287,14 +243,40 @@ def init_browser():
 		options=options,
 		desired_capabilities=capabilities
 	)
-	driver.get("chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm/dashboard.html#settings.html")
-	time.sleep(1)
-	frame = driver.find_element(By.ID,'iframe')
+	wait = WebDriverWait(driver, 10)
+	driver.get(
+		"chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm/"+
+		"dashboard.html#settings.html")
+	frame = wait.until(EC.visibility_of_element_located((By.ID, 'iframe')))
 	driver.switch_to.frame(frame)
-
-	driver.find_element(By.XPATH,'//input[@data-setting-name="noLargeMedia"]').click()
-	driver.find_element(By.XPATH,'//input[@data-setting-name="noRemoteFonts"]').click()
-	input = driver.find_element(By.XPATH,'//input[@data-setting-name="largeMediaSize"]')
+	input = wait.until(EC.element_to_be_clickable(
+		(By.XPATH,'//input[@data-setting-name="largeMediaSize"]')))
+	driver.find_element(By.XPATH,
+		'//input[@data-setting-name="noLargeMedia"]').click()
+	driver.find_element(By.XPATH,
+		'//input[@data-setting-name="noRemoteFonts"]').click()
 	input.clear()
 	driver.switch_to.default_content()
 	return driver
+
+def fix_url(url):
+	segments = url.split('/')
+	final = -1
+	if segments[final] == '': final = -2
+	segments[final] = segments[final].replace('0', 'false')
+	segments[final] = segments[final].replace('1', 'misleading')
+	segments[final] = segments[final].replace('2', 'true')
+	segments[final] = segments[final].replace('3', 'unproven')
+	newUrl = '/'.join(segments)
+	print(url)
+	print(newUrl)
+	return newUrl
+
+def check_urls(src:str):
+	path = f'./data/{src}.pkl'
+	df:pd.DataFrame = pd.read_pickle(path)
+	errDf = df[df['title'].str.contains('not found')]
+	errDf.url = errDf.url.apply(fix_url)
+	errDf = errDf.apply(save_html, axis=1)
+	df.update(errDf)
+	df.to_pickle(path)

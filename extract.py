@@ -41,11 +41,18 @@ def print_results(df:pd.DataFrame):
 
 
 if __name__ == '__main__':
-	#save_pkl('train', './data/train3.pkl', include=[i for i in range(2000,3000)])
-	save_translation('train1')
-	trainDf = extract('train1')
-	# print_data(trainDf)
-	#print_results(trainDf)
-	
+	df:pd.DataFrame = pd.read_pickle('./data/testfinal.pkl')
+	print(df.columns)
+	df = df[['fragments']]
+	df.rename(columns={
+		'fragments':'text'
+	}, inplace=True)
+	df.to_csv('./data/testfinal.csv')
+	# errDf.translated[292] = translate_language(errDf.sents[292])
+	# errDf.fragments[292] = filter_fragments(errDf.translated[292])
+	# errDf.translated[438] = translate_language(errDf.sents[438])
+	# errDf.fragments[438] = filter_fragments(errDf.translated[438])
+	# df.update(errDf)
+	# df.to_pickle('./data/testfinal.pkl')
 	
 		
